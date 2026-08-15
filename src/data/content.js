@@ -5,74 +5,82 @@ import p2 from '../assets/images/p2.png'
 import p3 from '../assets/images/p3.png'
 import p4 from '../assets/images/p4.png'
 
-// 以下为占位内容，请替换为你的真实信息（改这一个文件即可）
+// 真实内容取自 简历.txt（黄田乐 · 广州大学 · 电气工程及其自动化）
 export const profile = {
-  name: 'Greywolfy',
-  roles: ['视觉设计师', 'AI 设计师', '品牌设计师'],
-  tagline: '为品牌打造清晰、克制且可延展的视觉系统，让设计在每一次接触中都成立。',
+  name: '黄田乐',
+  roles: ['AI 设计师', '机器视觉', '智能硬件'],
+  tagline: '用深度学习、机器视觉与硬件设计，把复杂的工程问题收拢成清晰、可落地的智能系统。',
   intro:
-    '我是一名视觉、AI 与品牌设计师，习惯用系统化的方式把复杂的品牌语言收拢成清晰、可延展的视觉表达。这里收录了我近年的部分作品，以及一些实践中的思考。',
-  email: 'hello@greywolfy.design',
-  location: '中国 · 远程接单',
-  contactLead: '无论是品牌升级、AI 视觉探索，还是一次完整的视觉系统搭建，欢迎来信聊聊。',
+    '我是黄田乐，广州大学电气工程及其自动化专业应届生。专注 AI 视觉、机器人与智能硬件，参与过国家级立项与多项省校级竞赛，也动手做过 PCB、嵌入式与机械结构设计。这里收录了我的部分项目与实践。',
+  email: '1043588439@qq.com',
+  location: '广州 · 佛山',
+  contactLead: '无论是 AI 视觉、智能硬件还是工程合作，欢迎来信聊聊。',
   heroPoster,
   avatar,
 }
 
 export const stats = [
-  { value: '120+', label: '完成项目' },
-  { value: '40+', label: '合作品牌' },
-  { value: '6', label: '从业年限' },
-  { value: '12', label: '设计奖项' },
+  { value: '3', label: '科创项目' },
+  { value: '4', label: '省级奖项' },
+  { value: '2', label: '专利（受理/实审）' },
+  { value: '1', label: '国家级立项' },
 ]
 
 export const projects = [
   {
-    title: 'NOVA 品牌视觉系统',
-    year: '2025',
-    category: ['品牌设计', '视觉系统'],
+    title: '智能农耕 · 播种采摘一体化农机',
+    year: '2024',
+    category: ['智能硬件', '低碳农业', '机械创新'],
     cover: p1,
-    desc: '为一支新能源团队从标志、色彩到动态规范，搭建一套可延展的视觉系统，让品牌在线上线下都保持一致的语气。',
+    desc: '主导研发莴笋播种采摘一体化农机，设计减震弹簧缓冲底盘与主控电路板，聚焦低碳与高效农业需求，获多项省校级奖项。',
     url: '#',
   },
   {
-    title: '生成式视觉探索',
-    year: '2025',
-    category: ['AI 设计', '实验'],
+    title: '沙滩守护者 · 仿生环保机器人',
+    year: '2023',
+    category: ['深度学习', '仿生设计', '机器人'],
     cover: p2,
-    desc: '用多模型工作流探索可控的 AI 生成视觉，把随机性收拢成可复用的风格语言。',
+    desc: '结合深度学习与仿鲍鱼吸盘/章鱼手臂的仿生设计，研发智能沙滩垃圾收集机器人，实现垃圾抓取分类与生物避障，减少海滩生态影响。',
     url: '#',
   },
   {
-    title: '臻选电商视觉',
-    year: '2024',
-    category: ['电商', '排版'],
+    title: '机器视觉智能垃圾分类系统',
+    year: '2023–2025',
+    category: ['机器视觉', 'YOLO', '嵌入式'],
     cover: p3,
-    desc: '围绕一套高级感的版式与光影，重塑电商主视觉与详情页的观看节奏。',
+    desc: '基于 K230 芯片适配轻量化，应用 YOLOv5 目标检测，搭建垃圾图像采集与识别链路，实现自动识别与投放引导。',
     url: '#',
   },
   {
-    title: '空间与展陈设计',
-    year: '2024',
-    category: ['空间', '3D'],
+    title: '毕业实习 · 电力系统与嵌入式',
+    year: '2025',
+    category: ['电力系统', '嵌入式', 'STM32'],
     cover: p4,
-    desc: '把平面语言延伸到三维空间，用线框与体块讲述品牌在真实场景里的样子。',
+    desc: '于粤嵌/三峡集团实习：学习变压器、无功补偿与变电站设计；主导 STM32 平衡车项目，调试 HC-05 蓝牙、超声波与 MPU6050，实现蓝牙遥控、自动避障与温湿度采集。',
+    url: '#',
+  },
+  {
+    title: '专利成果 · 受理与实质审查',
+    year: '2024',
+    category: ['实用新型', '发明专利', '核心成果'],
+    cover: p4,
+    desc: '实用新型专利《莴笋播种采收一体化农机》已受理，为智能农耕项目核心成果；发明专利《三级差速垃圾分类处理系统》进入实质审查，基于智能垃圾分类项目延伸研发。',
     url: '#',
   },
 ]
 
 export const advantages = [
-  { title: '品牌视觉系统', desc: '从标志、色彩到应用规范，建立一套能长期生长的视觉资产。', wide: true },
-  { title: 'AI 创意工作流', desc: '把生成式工具变成可控的生产力，而非随机的玩具。', image: p2 },
-  { title: '动态与动效', desc: '用克制的运动让界面与品牌更有呼吸感。' },
-  { title: '版式与字体', desc: '让信息以最舒服的节奏被人阅读。' },
-  { title: '3D 与空间', desc: '把二维语言延展到三维与真实场景。' },
-  { title: '艺术指导', desc: '统筹影像、排版与调性，让每一次产出都像同一个品牌。' },
+  { title: 'AI 视觉与深度学习', desc: 'YOLOv5 目标检测、深度学习应用与数字孪生技术，把算法落到真实场景。', wide: true, image: p2 },
+  { title: '硬件与嵌入式', desc: 'STM32、嘉立创 EDA PCB 设计、Proteus、电路与嵌入式系统开发。' },
+  { title: '工程建模与设计', desc: 'SolidWorks 机械建模、减震结构与主控电路板设计，软硬结合。' },
+  { title: '编程能力', desc: '熟悉 Python、C/C++、HTML，MATLAB / PSIM / LabVIEW 仿真。' },
+  { title: '电力系统与自动化', desc: '电路、电机学、电力系统分析、继电保护与微电网调度基础。' },
+  { title: '竞赛与科研', desc: '国家级大创立项、实用新型/发明专利、自动化学会预备会员、产业学院助教。' },
 ]
 
 export const socials = [
-  { label: 'Behance', url: '#' },
-  { label: '站酷', url: '#' },
-  { label: 'Instagram', url: '#' },
+  { label: '邮箱', url: 'mailto:1043588439@qq.com' },
   { label: '微信', url: '#' },
+  { label: 'GitHub', url: '#' },
+  { label: 'QQ', url: '#' },
 ]

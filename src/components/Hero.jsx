@@ -20,9 +20,9 @@ export default function Hero() {
       </div>
 
       <div className="hero__inner container">
-        <p className="eyebrow hero__eyebrow">视觉设计 · AI 创意 · 品牌</p>
+        <p className="eyebrow hero__eyebrow">AI 视觉 · 机器视觉 · 智能硬件</p>
         <h1 className="hero__title">
-          用设计，<br />构建值得记住的品牌
+          用 AI 与工程，<br />把复杂问题做成可靠系统
         </h1>
         <p className="hero__sub">{profile.tagline}</p>
         <div className="hero__actions">
