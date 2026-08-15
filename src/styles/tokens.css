@@ -1,0 +1,35 @@
+:root {
+  /* 暗色基底（无纯黑，保留层次） */
+  --bg: #0a0a0c;
+  --bg-2: #0d0d11;
+  --surface: rgba(255, 255, 255, 0.035);
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.18);
+
+  /* 文本 */
+  --text: #ECEDEF;
+  --text-dim: #9A9AA4;
+  --text-faint: #66666E;
+
+  /* 单一克制强调色：暖琥珀 */
+  --accent: #ffb84d;
+  --accent-2: #ffd58a;
+  --accent-dim: rgba(255, 184, 77, 0.12);
+  --accent-line: rgba(255, 184, 77, 0.34);
+
+  /* 版心与间距 */
+  --max: 1700px;
+  --pad: clamp(1.5rem, 5vw, 4rem);
+
+  /* 字体 */
+  --ff-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --ff-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ff-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* 圆角（统一：卡片 16px，按钮胶囊） */
+  --r-card: 16px;
+  --r-pill: 999px;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
