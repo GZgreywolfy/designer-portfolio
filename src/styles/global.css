@@ -638,6 +638,44 @@ h3 {
   max-width: 42ch;
 }
 
+/* 编程语言 / 工具 logo 芯片 */
+.adv__logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.logo-chip {
+  --logo: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--logo);
+  background: color-mix(in srgb, var(--logo) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--logo) 38%, transparent);
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.logo-chip::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--logo);
+  box-shadow: 0 0 8px var(--logo);
+}
+
+.adv:hover .logo-chip {
+  background: color-mix(in srgb, var(--logo) 22%, transparent);
+  border-color: color-mix(in srgb, var(--logo) 60%, transparent);
+}
+
 /* ---------- 底部联系方式（整屏收尾） ---------- */
 .contact {
   min-height: 100dvh;

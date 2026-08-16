@@ -10,12 +10,6 @@ export default function About() {
             <img src={profile.avatar} alt={`${profile.name} 的人物形象`} />
             <span className="about__avatar-ring" aria-hidden="true" />
           </div>
-          <div className="about__contact">
-            <span className="about__contact-label">联系方式</span>
-            <a className="about__contact-link" href={`mailto:${profile.email}`}>
-              {profile.email}
-            </a>
-          </div>
         </Reveal>
 
         <Reveal className="about__body" delay={0.08}>
