@@ -5,15 +5,14 @@ import p2 from '../assets/images/p2.png'
 import p3 from '../assets/images/p3.png'
 import p4 from '../assets/images/p4.png'
 
-// 真实内容取自 简历.txt（黄田乐 · 广州大学 · 电气工程及其自动化）
+// 内容取自简历；姓名以品牌 Greywolfy 呈现，不暴露真实姓名
 export const profile = {
-  name: '黄田乐',
+  name: 'Greywolfy',
   roles: ['AI 设计师', '机器视觉', '智能硬件'],
   tagline: '用深度学习、机器视觉与硬件设计，把复杂的工程问题收拢成清晰、可落地的智能系统。',
   intro:
-    '我是黄田乐，广州大学电气工程及其自动化专业应届生。专注 AI 视觉、机器人与智能硬件，参与过国家级立项与多项省校级竞赛，也动手做过 PCB、嵌入式与机械结构设计。这里收录了我的部分项目与实践。',
-  email: '1043588439@qq.com',
-  location: '广州 · 佛山',
+    '我是 Greywolfy，广州大学电气工程及其自动化专业应届生。专注 AI 视觉、机器人与智能硬件，参与过国家级立项与多项省校级竞赛，也动手做过 PCB、嵌入式与机械结构设计。这里收录了我的部分项目与实践。',
+  email: 'asdjkhkx5435@outlook.com',
   contactLead: '无论是 AI 视觉、智能硬件还是工程合作，欢迎来信聊聊。',
   heroPoster,
   avatar,
@@ -79,8 +78,5 @@ export const advantages = [
 ]
 
 export const socials = [
-  { label: '邮箱', url: 'mailto:1043588439@qq.com' },
-  { label: '微信', url: '#' },
-  { label: 'GitHub', url: '#' },
-  { label: 'QQ', url: '#' },
+  { label: '邮箱', url: 'mailto:asdjkhkx5435@outlook.com' },
 ]

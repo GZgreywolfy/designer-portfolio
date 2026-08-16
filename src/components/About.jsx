@@ -15,7 +15,6 @@ export default function About() {
             <a className="about__contact-link" href={`mailto:${profile.email}`}>
               {profile.email}
             </a>
-            <span className="about__contact-sub">{profile.location}</span>
           </div>
         </Reveal>
 
