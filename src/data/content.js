@@ -1,6 +1,6 @@
 import heroPoster from '../assets/images/hero-poster.png'
 import avatar from '../assets/images/avatar.webp'
-import p1 from '../assets/images/p1.png'
+import agriculture from '../assets/images/agriculture.webp'
 import p2 from '../assets/images/p2.png'
 import p3 from '../assets/images/p3.png'
 import hydro from '../assets/images/hydro.png'
@@ -34,7 +34,7 @@ export const projects = [
     title: '智能农耕 · 播种采摘一体化农机',
     year: '2024',
     category: ['智能硬件', '低碳农业', '机械创新'],
-    cover: p1, // 占位图，待用户发真实作品图后替换
+    cover: agriculture, // 真实项目图：SolidWorks 整机线框 + 半透外壳渲染
     desc: '主导研发莴笋播种采摘一体化农机，设计减震弹簧缓冲底盘与主控电路板，聚焦低碳与高效农业需求，获多项省校级奖项。',
     url: '#',
   },
