@@ -292,7 +292,7 @@ h3 {
 .hero__title {
   font-size: clamp(2.6rem, 6.4vw, 6rem);
   font-weight: 600;
-  max-width: 16ch;
+  max-width: 22ch;
   margin-bottom: 1.8rem;
 }
 
