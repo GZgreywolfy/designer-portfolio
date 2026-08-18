@@ -1,7 +1,8 @@
 import heroPoster from '../assets/images/hero-poster.png'
 import avatar from '../assets/images/avatar.webp'
 import agriculture from '../assets/images/agriculture.webp'
-import p2 from '../assets/images/p2.png'
+import beachRobot from '../assets/images/beach-robot.webp'
+import trashSorter from '../assets/images/trash-sorter.webp'
 import p3 from '../assets/images/p3.png'
 import hydro from '../assets/images/hydro.png'
 import patentA from '../assets/images/patent-a.png'
@@ -42,7 +43,7 @@ export const projects = [
     title: '沙滩守护者 · 仿生环保机器人',
     year: '2023',
     category: ['深度学习', '仿生设计', '机器人'],
-    cover: p2, // 占位图，待用户发真实作品图后替换
+    cover: beachRobot, // 真实项目图：SolidWorks 线框渲染
     desc: '结合深度学习与仿鲍鱼吸盘/章鱼手臂的仿生设计，研发智能沙滩垃圾收集机器人，实现垃圾抓取分类与生物避障，减少海滩生态影响。',
     url: '#',
   },
@@ -50,7 +51,7 @@ export const projects = [
     title: '机器视觉智能垃圾分类系统',
     year: '2023–2025',
     category: ['机器视觉', 'YOLO', '嵌入式'],
-    cover: p3, // 占位图，待用户发真实作品图后替换
+    cover: trashSorter, // 真实项目图：SolidWorks 线框渲染
     desc: '基于 K230 芯片适配轻量化，应用 YOLOv5 目标检测，搭建垃圾图像采集与识别链路，实现自动识别与投放引导。',
     url: '#',
   },
