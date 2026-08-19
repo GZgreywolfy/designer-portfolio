@@ -45,6 +45,11 @@ export default function Advantages() {
                     ))}
                   </div>
                 )}
+                {a.code && (
+                  <div className="adv__code">
+                    <img className="adv__code-img" src={a.code} alt={`${a.title} 代码示例`} />
+                  </div>
+                )}
               </div>
             </Reveal>
           ))}
