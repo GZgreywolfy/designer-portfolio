@@ -4,12 +4,13 @@ import agriculture from '../assets/images/agriculture.webp'
 import beachRobot from '../assets/images/beach-robot.webp'
 import trashSorter from '../assets/images/trash-sorter.webp'
 import hydro from '../assets/images/hydro.png'
-import patentA from '../assets/images/patent-a.png'
+import patentCerts from '../assets/images/patent-certs.webp'
 import k230 from '../assets/images/k230.png'
 import stm32 from '../assets/images/stm32.png'
 import microgrid from '../assets/images/microgrid.png'
 import cadModel from '../assets/images/cad-model.webp'
 import award from '../assets/images/award.png'
+import codeSnippet from '../assets/images/code-snippet.webp'
 
 // 内容取自简历；姓名以品牌 Greywolfy 呈现，不暴露真实姓名
 export const profile = {
@@ -67,7 +68,7 @@ export const projects = [
     title: '专利成果 · 受理与实质审查',
     year: '2024',
     category: ['实用新型', '发明专利', '核心成果'],
-    cover: patentA, // 实审版配图（AI 生成，多版待选）；受理版保留见 patent-b/c
+    cover: patentCerts, // 实拍：外观设计 / 发明 / 实用新型 三本专利证书
     desc: '实用新型专利《莴笋播种采收一体化农机》已受理，为智能农耕项目核心成果；发明专利《三级差速垃圾分类处理系统》进入实质审查，基于智能垃圾分类项目延伸研发。',
     url: '#',
   },
@@ -94,6 +95,7 @@ export const advantages = [
     title: '编程能力',
     desc: '熟悉 Python、C/C++、HTML，MATLAB / PSIM / LabVIEW 仿真。',
     logos: ['Python', 'C++', 'HTML', 'MATLAB', 'PSIM'],
+    code: codeSnippet, // 机器视觉垃圾分类实时推理代码截图
   },
   {
     title: '电力系统与自动化',
