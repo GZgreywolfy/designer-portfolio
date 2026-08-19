@@ -8,6 +8,7 @@ import patentA from '../assets/images/patent-a.png'
 import k230 from '../assets/images/k230.png'
 import stm32 from '../assets/images/stm32.png'
 import microgrid from '../assets/images/microgrid.png'
+import cadModel from '../assets/images/cad-model.webp'
 import award from '../assets/images/award.png'
 
 // 内容取自简历；姓名以品牌 Greywolfy 呈现，不暴露真实姓名
@@ -87,7 +88,7 @@ export const advantages = [
   {
     title: '工程建模与设计',
     desc: 'SolidWorks 机械建模、减震结构与主控电路板设计，软硬结合。',
-    // 待用户发模型图后替换（currently 无图）
+    image: cadModel, // 真实模型图：SolidWorks L 型支架线框渲染
   },
   {
     title: '编程能力',
